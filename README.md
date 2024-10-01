@@ -39,7 +39,7 @@ data:
 
 #### attributes:
 - `folder` is used to indicate folder path. it is a mandatory attribute.
-- `time` is used to indicate how old files must be in order to be deleted. The time format is 'DD HH:MM:SS' or number of seconds. Default is 24 hours. It is an optional attribute.
+- `time` is used to indicate how old files must be in order to be deleted. The time format is `DD HH:MM:SS` or number of seconds. Default is 24 hours. It is an optional attribute.
 - `only_extensions` is list of extensions of files that are allowed to be deleted. Cannot be used together with `except_extensions`. Note: extension names must match exactly. It is an optional attribute.
 - `except_extensions` is list of extensions of files that are not allowed to be deleted. Cannot be used together with `only_extensions`. Note: extension names must match exactly. It is an optional attribute.
 - `except_files` is list of files that are not allowed to be deleted. Note: file names and extensions must match exactly, they are case sensitive. It is an optional attribute.
